@@ -69,5 +69,5 @@ article{
 
 article p{
  position: relative;
- display: inline-block;
+ display: block;
 }
