@@ -1,0 +1,68 @@
+nav a{
+ margin: 20px;
+ text-decoration: none;
+ font-variant: small-caps;
+ color: black;
+ text-transform: capitalize;
+ transition: background 2s, padding 2s;
+}
+
+nav a:hover{
+ padding: 0px 5px;
+}
+
+nav a:active{
+ background: red;
+ padding: 0px 5px;
+}
+
+nav{
+ border-top: 2px solid black;
+ border-bottom: 2px solid black;
+ text-align: center;
+}
+
+aside{
+ width: 30%;
+ float: left;
+ position: fixed;
+}
+
+p{
+ position: absolute;
+ margin: 10px;
+}
+
+.bottonImg{
+ width: 150px;
+ height: 100px;
+ border: 14px black;
+ outline: 10px black;
+ padding: 5px;
+ background: red;
+ position: absolute;
+ transition: background 3s;
+}
+
+.sideBarItem{
+ margin: 20px;
+ height: 100px;
+ width: 199px;
+ display: block;
+}
+
+
+.bottonImg:hover{
+ background: transparent;
+}
+
+h1{
+ text-decoration: underline;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+article{
+ width: 70%;
+ float: right;
+}
