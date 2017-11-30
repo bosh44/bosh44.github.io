@@ -36,10 +36,9 @@ p{
 .bottonImg{
  width: 150px;
  height: 100px;
- border: 14px black;
- outline: 10px black;
  padding: 5px;
  background: red;
+ border-radius: 1em;
  position: absolute;
  transition: background 3s;
 }
