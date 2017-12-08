@@ -57,6 +57,7 @@ p{
  width: 100%;
  background: red;
  transition: background 3s;
+ border-radius: 1em;
 }
 
 .sideBarItem{
