@@ -48,12 +48,13 @@ aside{
  float: left;
 }
 
-p{
+aside p{
  margin: 15px;
+ color: red;
 }
 
 .bottonImg{
- height: 10em;
+ height: 8em;
  width: 100%;
  background: red;
  transition: background 3s;
