@@ -46,11 +46,9 @@ nav{
 
 aside{
  float: left;
- position: fixed;
 }
 
 p{
- position: absolute;
  margin: 15px;
 }
 
@@ -58,13 +56,11 @@ p{
  height: 10em;
  width: 100%;
  background: red;
- position: absolute;
  transition: background 3s;
 }
 
 .sideBarItem{
  margin: 0.5em;
- display: block;
 }
 
 
