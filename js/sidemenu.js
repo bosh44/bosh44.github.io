@@ -1,17 +1,17 @@
 function updates() {
-  $('.updates').css({'display':'block'});
-  $('.about').css({'display':'none'});
-  $('.blog').css({'display':'none'});
+  document.getElementByClassName('updates').style.display='block';
+  document.getElementByClassName('about').style.display='none';
+  document.getElementByClassName('blog').style.display='none';
 }
 
 function about() {
-  $('.updates').css({'display':'none'});
-  $('.about').css({'display':'block'});
-  $('.blog').css({'display':'none'});
+  document.getElementByClassName('updates').style.display='none';
+  document.getElementByClassName('about').style.display='block';
+  document.getElementByClassName('blog').style.display='none';
 }
 
 function blog() {
-  $('.updates').css({'display':'none'});
-  $('.about').css({'display':'none'});
-  $('.blog').css({'display':'block'});
+  document.getElementByClassName('updates').style.display='none';
+  document.getElementByClassName('about').style.display='none';
+  document.getElementByClassName('blog').style.display='block';
 }
