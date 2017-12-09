@@ -58,12 +58,23 @@ aside p{
  color: white;
 }
 
+aside p:hover{
+ color:red;
+ cursor: pointer;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+
 .bottonImg{
  height: 8em;
  width: 100%;
  background: red;
  transition: background 3s;
  border-radius: 1em;
+ display: flex;
+ flex-direction: column;
+ margin-top: 1em;
 }
 
 .sideBarItem{
@@ -74,6 +85,7 @@ aside p{
 .bottonImg:hover{
  background: transparent;
  color: red;
+ cursor: pointer;
 }
 
 h1{
