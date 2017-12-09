@@ -55,7 +55,7 @@ aside{
 aside p{
  margin: 15px;
  font-size: 4em;
- color: red;
+ color: white;
 }
 
 .bottonImg{
@@ -73,6 +73,7 @@ aside p{
 
 .bottonImg:hover{
  background: transparent;
+ color: red;
 }
 
 h1{
