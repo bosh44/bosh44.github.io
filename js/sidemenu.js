@@ -3,21 +3,21 @@
   var blogClass = document.getElementsByClassName('blog');
 
 function updates() {
-  updatesClass.style.display='block';
-  aboutClass.style.display='none';
-  blogClass.style.display='none';
+  changeClass(updatesClass,'block');
+  changeClass(aboutClass, 'none');
+  changeClass(blogClass, 'none');
 }
 
 function about() {
-  updatesClass.style.display='none';
-  aboutClass.style.display='block';
-  blogClass.style.display='none';
+  changeClass(updatesClass,'none');
+  changeClass(aboutClass, 'block');
+  changeClass(blogClass, 'none');
 }
 
 function blog() {
-  updatesClass.style.display='none';
-  aboutClass.style.display='none';
-  blogClass.style.display='block';
+  changeClass(updatesClass,'none');
+  changeClass(aboutClass, 'none');
+  changeClass(blogClass, 'block');
 }
 
 function changeDisplay(selectedClass, value) {
