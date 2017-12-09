@@ -1,17 +1,27 @@
+  var updatesClass = document.getElementsByClassName('updates');
+  var aboutClass = document.getElementsByClassName('about');
+  var blogClass = document.getElementsByClassName('blog');
+
 function updates() {
-  document.getElementsByClassName('updates').style.display='block';
-  document.getElementsByClassName('about').style.display='none';
-  document.getElementsByClassName('blog').style.display='none';
+  updatesClass.style.display='block';
+  aboutClass.style.display='none';
+  blogClass.style.display='none';
 }
 
 function about() {
-  document.getElementsByClassName('updates').style.display='none';
-  document.getElementsByClassName('about').style.display='block';
-  document.getElementsByClassName('blog').style.display='none';
+  updatesClass.style.display='none';
+  aboutClass.style.display='block';
+  blogClass.style.display='none';
 }
 
 function blog() {
-  document.getElementsByClassName('updates').style.display='none';
-  document.getElementsByClassName('about').style.display='none';
-  document.getElementsByClassName('blog').style.display='block';
+  updatesClass.style.display='none';
+  aboutClass.style.display='none';
+  blogClass.style.display='block';
+}
+
+function changeDisplay(selectedClass, value) {
+  for (i = 0; i < selectedClass.length; i++){
+    selectedClass[i].style.display = value;
+  }
 }
